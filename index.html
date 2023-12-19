@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <title>madman.raw repository</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Mate+SC&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id ="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>    
+        </nav>
+        <div class="text-box">
+            <h1>madman.raw</h1>
+            <p>digital notebook x repository.</p> 
+            <a href="mailto:emehrann3@gmail.com" class="hero-btn">Contact Me</a>
+        </div>
+        
+    </section>
+                        <!----------Call to action---------->
+<section class="cta">
+    <h2>Click to Add data!</h2>
+    <p>You can either add intresting codes here (with comments) if it does something cool or just learn the syntax of the Markdown scripting language,<br> and also add some good literary pieces. :)</p>
+    <p>  </p>
+    <a href="https://github.com/emehrawn/trashrepo/upload/main" class="hero-btn">Add +</a>
+</section>                        
+
+                        <!----------footer---------->
+<section class="footer">
+    <a name ="footer"></a>
+    <h4>Connect with me</h4>
+    <div class="icons">
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-github"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by Mehran, To be hosted on <i class="fa fa-github"></i> Github Pages! </p>
+</section>
+
+                        <!----------JavaScript toggle menu---------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-300px";
+        }
+
+    </script>
+</body>
+</html>
